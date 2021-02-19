@@ -66,6 +66,7 @@ body {
         padding-left: 0.8rem;
     }
     .show {
-        margin: 1rem;
+        width:95vw;
+        
     }
 }
