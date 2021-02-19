@@ -1,0 +1,71 @@
+body {
+    background: rgb(58, 57, 57);
+}
+
+.show {
+    width: 29.5rem;
+    margin: auto;
+}
+
+.calcus {
+    width: 30rem;
+    margin: auto;
+    padding: 0.3rem;
+}
+
+.solve,
+.answer {
+    width: 70%;
+    height: 4rem;
+    background: rgb(221, 221, 221);
+    text-align: right;
+    padding: 1.3rem;
+    font-size: 2rem;
+}
+
+.btn {
+    background: #002;
+    color: rgb(69, 213, 238);
+    width: 100%;
+    margin: 0.2rem;
+}
+
+.btn:not(.equal):hover {
+    color: rgb(10, 221, 116);
+    transform: scale(1.1);
+}
+
+.operation {
+    font-size: 1.3rem;
+}
+
+.action {
+    background: orangered;
+    color: #ddd;
+}
+
+.equal {
+    background: rgb(4, 161, 161);
+    color: rgb(223, 217, 217);
+    font-size: larger;
+}
+
+.equal:hover {
+    background: rgb(128, 131, 128);
+    color: #fff;
+    transform: scale(1.1);
+}
+
+@media(max-width:550px) {
+    .calcus {
+        width: 100vw;
+        overflow-x: hidden;
+    }
+    .buttons {
+        padding-right: 0.6rem;
+        padding-left: 0.8rem;
+    }
+    .show {
+        margin: 1rem;
+    }
+}
